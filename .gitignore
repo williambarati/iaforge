@@ -8,9 +8,9 @@ __pycache__/
 *.pyc
 
 # Env
-.env
-.env.*
-!.env.example
+# .env
+# .env.*
+# !.env.example
 
 # VSCode
 .vscode/
