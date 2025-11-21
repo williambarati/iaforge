@@ -1,0 +1,16 @@
+# Node
+node_modules/
+apps/dashboard/.next/
+apps/dashboard/out/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+.env.*
+!.env.example
+
+# VSCode
+.vscode/

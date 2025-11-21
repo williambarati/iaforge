@@ -1,0 +1,146 @@
+[
+  {
+    "usageId": "u_2025-11-18_dev_ricardo_alpha",
+    "projectId": "alpha",
+    "developerId": "dev_ricardo",
+    "date": "2025-11-18",
+    "tokensIn": 1800,
+    "tokensOut": 4020,
+    "totalCostUsd": 0.92
+  },
+  {
+    "usageId": "u_2025-11-19_dev_ana_beta",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "date": "2025-11-19",
+    "tokensIn": 900,
+    "tokensOut": 1900,
+    "totalCostUsd": 0.41
+  },
+  {
+    "usageId": "u_2025-11-20_dev_lucas_gamma",
+    "projectId": "gamma",
+    "developerId": "dev_lucas",
+    "date": "2025-11-20",
+    "tokensIn": 2300,
+    "tokensOut": 5200,
+    "totalCostUsd": 1.27
+  },
+  {
+    "usageId": "u_2025-11-21_dev_lucas_gamma",
+    "projectId": "gamma",
+    "developerId": "dev_lucas",
+    "date": "2025-11-21",
+    "tokensIn": 2100,
+    "tokensOut": 4800,
+    "totalCostUsd": 1.18
+  },
+  {
+    "usageId": "u_2025-11-21_dev_ana_beta",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "date": "2025-11-21",
+    "tokensIn": 1100,
+    "tokensOut": 2500,
+    "totalCostUsd": 0.55
+  },
+  {
+    "usageId": "u_2025-11-21_dev_camila_omega",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "date": "2025-11-21",
+    "tokensIn": 3200,
+    "tokensOut": 6500,
+    "totalCostUsd": 1.48
+  },
+  {
+    "usageId": "u_2025-11-22_dev_camila_omega",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "date": "2025-11-22",
+    "tokensIn": 2600,
+    "tokensOut": 5400,
+    "totalCostUsd": 1.21
+  },
+  {
+    "usageId": "u_2025-11-22_dev_mateus_alpha",
+    "projectId": "alpha",
+    "developerId": "dev_mateus",
+    "date": "2025-11-22",
+    "tokensIn": 900,
+    "tokensOut": 2100,
+    "totalCostUsd": 0.39
+  },
+  {
+    "usageId": "u_2025-11-22_dev_larissa_gamma",
+    "projectId": "gamma",
+    "developerId": "dev_larissa",
+    "date": "2025-11-22",
+    "tokensIn": 480,
+    "tokensOut": 1030,
+    "totalCostUsd": 0.22
+  },
+  {
+    "usageId": "u_2025-11-22_dev_julia_delta",
+    "projectId": "delta",
+    "developerId": "dev_julia",
+    "date": "2025-11-22",
+    "tokensIn": 1500,
+    "tokensOut": 3400,
+    "totalCostUsd": 0.73
+  },
+  {
+    "usageId": "u_2025-11-22_dev_pedro_delta",
+    "projectId": "delta",
+    "developerId": "dev_pedro",
+    "date": "2025-11-22",
+    "tokensIn": 45,
+    "tokensOut": 0,
+    "totalCostUsd": 0.01
+  },
+  {
+    "usageId": "u_2025-11-22_dev_sophia_gamma",
+    "projectId": "gamma",
+    "developerId": "dev_sophia",
+    "date": "2025-11-22",
+    "tokensIn": 3100,
+    "tokensOut": 6100,
+    "totalCostUsd": 1.32
+  },
+  {
+    "usageId": "u_2025-11-23_dev_beatriz_omega",
+    "projectId": "omega",
+    "developerId": "dev_beatriz",
+    "date": "2025-11-23",
+    "tokensIn": 1750,
+    "tokensOut": 3600,
+    "totalCostUsd": 0.78
+  },
+  {
+    "usageId": "u_2025-11-23_dev_henrique_beta",
+    "projectId": "beta",
+    "developerId": "dev_henrique",
+    "date": "2025-11-23",
+    "tokensIn": 1900,
+    "tokensOut": 4000,
+    "totalCostUsd": 0.89
+  },
+  {
+    "usageId": "u_2025-11-23_dev_tiago_alpha",
+    "projectId": "alpha",
+    "developerId": "dev_tiago",
+    "date": "2025-11-23",
+    "tokensIn": 2000,
+    "tokensOut": 4200,
+    "totalCostUsd": 0.93
+  },
+  {
+    "usageId": "u_2025-11-23_dev_renato_delta",
+    "projectId": "delta",
+    "developerId": "dev_renato",
+    "date": "2025-11-23",
+    "tokensIn": 25,
+    "tokensOut": 0,
+    "totalCostUsd": 0.01
+  }
+]

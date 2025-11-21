@@ -1,0 +1,449 @@
+[
+  {
+    "eventId": "evt_001",
+    "projectId": "alpha",
+    "developerId": "dev_ricardo",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 180,
+    "completionTokens": 420,
+    "timestamp": "2025-11-18T10:15:00Z",
+    "metadata": {
+      "file": "src/services/billing.py",
+      "language": "python",
+      "branch": "feature/billing-report"
+    }
+  },
+  {
+    "eventId": "evt_002",
+    "projectId": "alpha",
+    "developerId": "dev_ricardo",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 380,
+    "timestamp": "2025-11-18T10:15:02Z",
+    "metadata": {
+      "file": "src/services/billing.py",
+      "language": "python"
+    }
+  },
+  {
+    "eventId": "evt_003",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "prompt",
+    "promptTokens": 90,
+    "completionTokens": 210,
+    "timestamp": "2025-11-19T09:44:00Z",
+    "metadata": {
+      "file": "app/components/Header.tsx",
+      "language": "typescript",
+      "branch": "main"
+    }
+  },
+  {
+    "eventId": "evt_004",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 190,
+    "timestamp": "2025-11-19T09:44:03Z",
+    "metadata": {
+      "file": "app/components/Header.tsx",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_005",
+    "projectId": "gamma",
+    "developerId": "dev_lucas",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 260,
+    "completionTokens": 520,
+    "timestamp": "2025-11-20T14:02:00Z",
+    "metadata": {
+      "file": "api/routes/usage.ts",
+      "language": "typescript",
+      "branch": "feature/alerts"
+    }
+  },
+  {
+    "eventId": "evt_006",
+    "projectId": "gamma",
+    "developerId": "dev_lucas",
+    "ide": "Cursor",
+    "eventType": "system",
+    "promptTokens": 30,
+    "completionTokens": 0,
+    "timestamp": "2025-11-20T14:02:05Z",
+    "metadata": {
+      "note": "Context window refresh"
+    }
+  },
+  {
+    "eventId": "evt_007",
+    "projectId": "delta",
+    "developerId": "dev_julia",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 150,
+    "completionTokens": 360,
+    "timestamp": "2025-11-20T18:21:10Z",
+    "metadata": {
+      "file": "packages/flows/forecast.ts",
+      "language": "typescript",
+      "branch": "pilot/delta-ai"
+    }
+  },
+  {
+    "eventId": "evt_008",
+    "projectId": "delta",
+    "developerId": "dev_julia",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 340,
+    "timestamp": "2025-11-20T18:21:14Z",
+    "metadata": {
+      "file": "packages/flows/forecast.ts",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_009",
+    "projectId": "alpha",
+    "developerId": "dev_mateus",
+    "ide": "VSCode",
+    "eventType": "prompt",
+    "promptTokens": 210,
+    "completionTokens": 480,
+    "timestamp": "2025-11-21T08:05:30Z",
+    "metadata": {
+      "file": "infra/pipeline.tf",
+      "language": "hcl",
+      "branch": "feature/observability"
+    }
+  },
+  {
+    "eventId": "evt_010",
+    "projectId": "alpha",
+    "developerId": "dev_mateus",
+    "ide": "VSCode",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 410,
+    "timestamp": "2025-11-21T08:05:34Z",
+    "metadata": {
+      "file": "infra/pipeline.tf",
+      "language": "hcl"
+    }
+  },
+  {
+    "eventId": "evt_011",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 320,
+    "completionTokens": 640,
+    "timestamp": "2025-11-21T12:33:10Z",
+    "metadata": {
+      "file": "studio/prompts/assistant.md",
+      "language": "markdown",
+      "branch": "launch/demo-day"
+    }
+  },
+  {
+    "eventId": "evt_012",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 590,
+    "timestamp": "2025-11-21T12:33:18Z",
+    "metadata": {
+      "file": "studio/prompts/assistant.md",
+      "language": "markdown"
+    }
+  },
+  {
+    "eventId": "evt_013",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "prompt",
+    "promptTokens": 120,
+    "completionTokens": 260,
+    "timestamp": "2025-11-21T16:12:45Z",
+    "metadata": {
+      "file": "app/pages/Insights.tsx",
+      "language": "typescript",
+      "branch": "release/q4"
+    }
+  },
+  {
+    "eventId": "evt_014",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 240,
+    "timestamp": "2025-11-21T16:12:49Z",
+    "metadata": {
+      "file": "app/pages/Insights.tsx",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_015",
+    "projectId": "gamma",
+    "developerId": "dev_lucas",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 510,
+    "timestamp": "2025-11-21T17:55:12Z",
+    "metadata": {
+      "file": "api/routes/usage.ts",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_016",
+    "projectId": "gamma",
+    "developerId": "dev_larissa",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 240,
+    "completionTokens": 520,
+    "timestamp": "2025-11-22T09:10:00Z",
+    "metadata": {
+      "file": "dashboards/realtime.tsx",
+      "language": "typescript",
+      "branch": "pilot/cost-ops"
+    }
+  },
+  {
+    "eventId": "evt_017",
+    "projectId": "gamma",
+    "developerId": "dev_larissa",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 510,
+    "timestamp": "2025-11-22T09:10:05Z",
+    "metadata": {
+      "file": "dashboards/realtime.tsx",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_018",
+    "projectId": "delta",
+    "developerId": "dev_pedro",
+    "ide": "Cursor",
+    "eventType": "system",
+    "promptTokens": 45,
+    "completionTokens": 0,
+    "timestamp": "2025-11-22T11:30:00Z",
+    "metadata": {
+      "note": "Session context extended",
+      "environment": "staging"
+    }
+  },
+  {
+    "eventId": "evt_019",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "prompt",
+    "promptTokens": 160,
+    "completionTokens": 320,
+    "timestamp": "2025-11-22T14:15:00Z",
+    "metadata": {
+      "file": "app/components/UsageCard.tsx",
+      "language": "typescript",
+      "branch": "release/q4"
+    }
+  },
+  {
+    "eventId": "evt_020",
+    "projectId": "beta",
+    "developerId": "dev_ana",
+    "ide": "VSCode",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 300,
+    "timestamp": "2025-11-22T14:15:05Z",
+    "metadata": {
+      "file": "app/components/UsageCard.tsx",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_021",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 260,
+    "completionTokens": 540,
+    "timestamp": "2025-11-22T16:48:00Z",
+    "metadata": {
+      "file": "studio/prompts/evals.md",
+      "language": "markdown",
+      "branch": "launch/demo-day"
+    }
+  },
+  {
+    "eventId": "evt_022",
+    "projectId": "omega",
+    "developerId": "dev_camila",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 500,
+    "timestamp": "2025-11-22T16:48:07Z",
+    "metadata": {
+      "file": "studio/prompts/evals.md",
+      "language": "markdown"
+    }
+  },
+  {
+    "eventId": "evt_023",
+    "projectId": "alpha",
+    "developerId": "dev_tiago",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 200,
+    "completionTokens": 460,
+    "timestamp": "2025-11-22T18:05:00Z",
+    "metadata": {
+      "file": "k8s/overrides.yaml",
+      "language": "yaml",
+      "branch": "feature/observability"
+    }
+  },
+  {
+    "eventId": "evt_024",
+    "projectId": "alpha",
+    "developerId": "dev_tiago",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 420,
+    "timestamp": "2025-11-22T18:05:05Z",
+    "metadata": {
+      "file": "k8s/overrides.yaml",
+      "language": "yaml"
+    }
+  },
+  {
+    "eventId": "evt_025",
+    "projectId": "gamma",
+    "developerId": "dev_sophia",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 310,
+    "completionTokens": 610,
+    "timestamp": "2025-11-22T20:45:00Z",
+    "metadata": {
+      "file": "notebooks/cost-drivers.ipynb",
+      "language": "python",
+      "branch": "research/explainability"
+    }
+  },
+  {
+    "eventId": "evt_026",
+    "projectId": "gamma",
+    "developerId": "dev_sophia",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 570,
+    "timestamp": "2025-11-22T20:45:09Z",
+    "metadata": {
+      "file": "notebooks/cost-drivers.ipynb",
+      "language": "python"
+    }
+  },
+  {
+    "eventId": "evt_027",
+    "projectId": "delta",
+    "developerId": "dev_renato",
+    "ide": "Cursor",
+    "eventType": "system",
+    "promptTokens": 25,
+    "completionTokens": 0,
+    "timestamp": "2025-11-23T07:55:00Z",
+    "metadata": {
+      "note": "Auto-refresh after branch switch",
+      "environment": "production"
+    }
+  },
+  {
+    "eventId": "evt_028",
+    "projectId": "omega",
+    "developerId": "dev_beatriz",
+    "ide": "VSCode",
+    "eventType": "prompt",
+    "promptTokens": 175,
+    "completionTokens": 360,
+    "timestamp": "2025-11-23T09:35:00Z",
+    "metadata": {
+      "file": "studio/layouts/hero.tsx",
+      "language": "typescript",
+      "branch": "launch/demo-day"
+    }
+  },
+  {
+    "eventId": "evt_029",
+    "projectId": "omega",
+    "developerId": "dev_beatriz",
+    "ide": "VSCode",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 330,
+    "timestamp": "2025-11-23T09:35:04Z",
+    "metadata": {
+      "file": "studio/layouts/hero.tsx",
+      "language": "typescript"
+    }
+  },
+  {
+    "eventId": "evt_030",
+    "projectId": "beta",
+    "developerId": "dev_henrique",
+    "ide": "Cursor",
+    "eventType": "prompt",
+    "promptTokens": 190,
+    "completionTokens": 400,
+    "timestamp": "2025-11-23T11:12:00Z",
+    "metadata": {
+      "file": "hooks/useFeatureMetrics.ts",
+      "language": "typescript",
+      "branch": "experiment/segments"
+    }
+  },
+  {
+    "eventId": "evt_031",
+    "projectId": "beta",
+    "developerId": "dev_henrique",
+    "ide": "Cursor",
+    "eventType": "completion",
+    "promptTokens": 0,
+    "completionTokens": 360,
+    "timestamp": "2025-11-23T11:12:06Z",
+    "metadata": {
+      "file": "hooks/useFeatureMetrics.ts",
+      "language": "typescript"
+    }
+  }
+]

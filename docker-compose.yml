@@ -1,0 +1,89 @@
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: iaforge-mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    ports:
+      - "27017:27017"
+
+  mongo-seed:
+    image: mongo:7.0
+    container_name: iaforge-mongo-seed
+    depends_on:
+      - mongo
+    volumes:
+      - ./data/mongo/seed:/seed:ro
+    entrypoint: ["bash", "-c"]
+    command: >-
+      "until mongosh --host mongo --quiet --eval 'db.runCommand({ ping: 1 })'; do sleep 2; done &&
+      mongoimport --host mongo --db iaforge --collection events --file /seed/events.json --jsonArray --mode=upsert --upsertFields eventId"
+    restart: "no"
+
+  cursor-mock-api:
+    build:
+      context: ./services/cursor-mock-api
+    container_name: iaforge-cursor-api
+    env_file: ./.env
+    environment:
+      - PORT=${CURSOR_API_PORT:-8080}
+    depends_on:
+      - mongo
+    ports:
+      - "${CURSOR_API_PORT:-8080}:8080"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+    container_name: iaforge-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  elastic-seeder:
+    build:
+      context: ./services/elastic-seeder
+    container_name: iaforge-elastic-seeder
+    env_file: ./.env
+    environment:
+      - SEED_FILE=/seed/usage.json
+    depends_on:
+      - elasticsearch
+    volumes:
+      - ./data/elastic/seed:/seed:ro
+    restart: "no"
+
+  insights-api:
+    build:
+      context: ./services/insights-api
+    container_name: iaforge-insights-api
+    env_file: ./.env
+    environment:
+      - PORT=${INSIGHTS_API_PORT:-8081}
+    depends_on:
+      - elasticsearch
+    ports:
+      - "${INSIGHTS_API_PORT:-8081}:8081"
+
+  dashboard:
+    build:
+      context: ./apps/dashboard
+    container_name: iaforge-dashboard
+    env_file: ./.env
+    environment:
+      - NEXT_PUBLIC_INSIGHTS_API=http://insights-api:8081
+      - NEXT_PUBLIC_CURSOR_API=http://cursor-mock-api:8080
+    depends_on:
+      - insights-api
+      - cursor-mock-api
+    ports:
+      - "${DASHBOARD_PORT:-3000}:3000"
+
+volumes:
+  mongo_data:
+  es_data:
